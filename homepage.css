@@ -189,13 +189,13 @@
   }
 
   .image-first{
-    background-image: url("../images/room.jpg");
+    background-image: url("room.jpg");
   }
   .image-second{
-    background-image: url("../images/road.jpg");
+    background-image: url("road.jpg");
   }
   .image-third{
-    background-image: url("../images/rubikscube.jpg");
+    background-image: url("rubikscube.jpg");
   }
 
 
