@@ -180,6 +180,36 @@
     float: left;
   }
 
+  .plus-s{
+    display: inline-block;
+    float: left;
+  }
+
+  .minus-s{
+    display: inline-block;
+    float: right;
+  }
+
+  .plus{
+    display: inline-block;
+    float: left;
+  }
+
+  .plus-contents{
+    display: inline-block;
+    float: right;
+  }
+
+  .minus{
+    display: inline-block;
+    float: left;
+  }
+
+  .minus-contents{
+    display: inline-block;
+    float: right;
+  }
+
   .image-first, .image-second, .image-third{
     background-size:  cover;
     width: 45%;
@@ -189,13 +219,13 @@
   }
 
   .image-first{
-    background-image: url("room.jpg");
+    background-image: url("../images/room.jpg");
   }
   .image-second{
-    background-image: url("road.jpg");
+    background-image: url("../images/road.jpg");
   }
   .image-third{
-    background-image: url("rubikscube.jpg");
+    background-image: url("../images/rubikscube.jpg");
   }
 
 
