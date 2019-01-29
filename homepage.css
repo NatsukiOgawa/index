@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  a:link { color: #fff; }
+  a:visited { color: #fff; }
+  a:hover { color: #00ff7f; }
+  a:active { color: #ff8000; }
+
+
+  /* MARK: - Header Start */
+  header {
+    position: fixed; /* 固定する */
+    height: 50px; /* 高さ */
+    width: 100%; /* 横幅 */
+    background-color: rgba(193, 193, 193, 0.7); /* 背景色 */
+    padding-top: 10px; /* 内側の余白 */
+
+  }
+
+
+
+
+
+  .header-title {
+    color: #3c7487; /* 文字の色 */
+    font-size: 30px; /* 字の大きさ */
+    font-family: cursive; /* 字体 */
+    margin-left: 20px; /* 外側の余白（左側） */
+    display: inline-block;
+    float: left;
+  }
+
+   .header-search{
+     background: #ff0000;
+     height: 30px;
+     width: 250px;
+     margin-right: 50px;
+     float: right;
+     display: flex;
+   }
+
+   .search{
+     height: 30px;
+     font-size: 20px;
+     display: inline-block;
+   }
+
+   .image{
+     height: 33px;
+     width: 60px;
+     font-size: 30px;
+     background-image: url("/Users/natsukiogawa/Desktop/ホームページ/images/レンズ.jpg");
+     display: inline-block;
+     float: right;
+
+   }
+  /* MARK: - Header End */
+
+  /* MARK: - First Block Start */
+  .first-block {
+    height: 800px;
+    background-image: url("../images/field.jpg"); /* 背景画像 */
+    background-repeat: no-repeat; /* 背景画像を繰り返さない */
+    background-size: cover; /* 背景画像が比率を維持したまま収まるようにする */
+    padding-top: 130px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+  .info-container {
+    height: 360px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.6);
+    font-family: cursive;
+    margin-bottom: 100px;
+    display: flex; /* 中にある要素を並び替えるための命令文 */
+    justify-content: center; /* 中にある要素を水平方向にどこに置くか決める（今回は真ん中） */
+    align-items: center; /* 中にある要素を垂直方向にどこに置くか決める（今回は真ん中） */
+    flex-direction: column; /* 中にある要素が並ぶ向きを指定（今回は縦方向） */
+  }
+
+  h1 {
+    font-size: 70px;
+    font-family: fantasy;
+  }
+
+  .attribution {
+    background-color: rgba(0, 73, 118, 0.6);
+    color: #fff;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+  }
+
+  .button-container {
+    width: 500px;
+  }
+
+  .button-facebook{
+
+  }
+
+  .button-twitter{
+
+  }
+
+  .sns-btn {
+    color: #fff;
+    font-size: 15px;
+    height: 44px;
+    width: 100%;
+    margin-bottom: 30px;
+    border: #fff;
+  }
+
+  .mybtn-fb {
+    background: #3b539a;
+    font-family: sans-serif;
+  }
+
+  .mybtn-tw {
+    background: #39a9f2;
+    font-family: sans-serif;
+  }
+  /* MARK: - First Block End */
+  .mybtn-ins {
+    background: linear-gradient(-45deg, #CF2E92, #F26939);
+    font-family: cursive;　
+  }
+  /* MARK: - Second Block Start */
+  .second-block {
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+  .story-title {
+    background: rgba(255,255,255,0.6);
+    font-size: 70px;
+    font-family: fantasy;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+
+
+  }
+
+  .my-story-container {
+    width: 100%;
+  }
+
+  .my-story-title {
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center; /* 文字の中央寄せ */
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+
+  .my-story-container-first, .my-story-container-second, .my-story-container-thrid{
+    height: 600px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 60px;
+  }
+
+  .my-story-first, .my-story-second, .my-story-third{
+    width: 45%;
+    padding: 0px;
+    font-family: cursive;
+    display: inline-block;
+    float: left;
+  }
+
+  .image-first, .image-second, .image-third{
+    background-size:  cover;
+    width: 45%;
+    height: 500px;
+    display: inline-block;
+    float: right;
+  }
+
+  .image-first{
+    background-image: url("../images/room.jpg");
+  }
+  .image-second{
+    background-image: url("../images/road.jpg");
+  }
+  .image-third{
+    background-image: url("../images/rubikscube.jpg");
+  }
+
+
+
+  .my-story-body {
+    width: 700px;
+  }
+
+
+  /* MARK: - Second Block End */
+  .container{
+    background: rgba(200, 200, 200, 0.5);
+    display: flex;
+    flex-direction: row; /* 中にある要素が並ぶ向きを指定（今回は横方向） */
+  }
+
+  .links{
+
+  }
+
+ .first-block, .second-block{
+    margin-left: 60px;
+    margin-right: 60px;
+ }
+  footer {
+    background-color: rgba(193, 193, 193, 0.6);
+    text-align: center;
+    font-size: 20px;
+    font-family: fantasy;
+  }
