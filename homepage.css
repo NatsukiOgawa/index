@@ -26,8 +26,10 @@
   .header-title {
     color: #3c7487; /* 文字の色 */
     font-size: 30px; /* 字の大きさ */
+    font-weight: bold; /* 字の太さ */
     font-family: cursive; /* 字体 */
     margin-left: 20px; /* 外側の余白（左側） */
+    padding-left: 50px;
     display: inline-block;
     float: left;
   }
@@ -51,7 +53,7 @@
      height: 33px;
      width: 60px;
      font-size: 30px;
-     background-image: url("レンズ.jpg");
+     background-image: url("/Users/natsukiogawa/Desktop/ホームページ/images/レンズ.jpg");
      display: inline-block;
      float: right;
 
@@ -61,7 +63,7 @@
   /* MARK: - First Block Start */
   .first-block {
     height: 800px;
-    background-image: url("field.jpg"); /* 背景画像 */
+    background-image: url("../images/field.jpg"); /* 背景画像 */
     background-repeat: no-repeat; /* 背景画像を繰り返さない */
     background-size: cover; /* 背景画像が比率を維持したまま収まるようにする */
     padding-top: 130px;
@@ -74,6 +76,7 @@
   .info-container {
     height: 360px;
     width: 500px;
+    margin-left: 80px;
     background-color: rgba(255, 255, 255, 0.6);
     font-family: cursive;
     margin-bottom: 100px;
@@ -99,6 +102,7 @@
 
   .button-container {
     width: 500px;
+    margin: 80px;
   }
 
   .button-facebook{
@@ -167,8 +171,8 @@
 
   .my-story-container-first, .my-story-container-second, .my-story-container-thrid{
     height: 600px;
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 140px;
+    margin-right: 200px;
     margin-bottom: 60px;
   }
 
@@ -181,31 +185,38 @@
   }
 
   .plus-s{
-    display: inline-block;
-    float: left;
+    height: 50%;
+    margin-top: 0px;
   }
 
   .minus-s{
-    display: inline-block;
-    float: right;
+    height: 50%;
   }
 
   .plus{
+    width: 15%;
+    height: 100%;
     display: inline-block;
     float: left;
   }
 
   .plus-contents{
+    width: 80%;
+    height: 100%;
     display: inline-block;
     float: right;
   }
 
   .minus{
+    width: 15%;
+    height: 100%;
     display: inline-block;
     float: left;
   }
 
   .minus-contents{
+    width: 80%;
+    height: 100%;
     display: inline-block;
     float: right;
   }
@@ -219,19 +230,20 @@
   }
 
   .image-first{
-    background-image: url("room.jpg");
+    background-image: url("../images/room.jpg");
   }
   .image-second{
-    background-image: url("road.jpg");
+    background-image: url("../images/road.jpg");
   }
   .image-third{
-    background-image: url("rubikscube.jpg");
+    background-image: url("../images/rubikscube.jpg");
   }
 
 
 
   .my-story-body {
     width: 700px;
+    height: auto;
   }
 
 
