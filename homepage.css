@@ -53,7 +53,7 @@
      height: 33px;
      width: 60px;
      font-size: 30px;
-     background-image: url("/Users/natsukiogawa/Desktop/ホームページ/images/レンズ.jpg");
+     background-image: url("レンズ.jpg");
      display: inline-block;
      float: right;
 
@@ -63,7 +63,7 @@
   /* MARK: - First Block Start */
   .first-block {
     height: 800px;
-    background-image: url("../images/field.jpg"); /* 背景画像 */
+    background-image: url("field.jpg"); /* 背景画像 */
     background-repeat: no-repeat; /* 背景画像を繰り返さない */
     background-size: cover; /* 背景画像が比率を維持したまま収まるようにする */
     padding-top: 130px;
@@ -230,13 +230,13 @@
   }
 
   .image-first{
-    background-image: url("../images/room.jpg");
+    background-image: url("room.jpg");
   }
   .image-second{
-    background-image: url("../images/road.jpg");
+    background-image: url("road.jpg");
   }
   .image-third{
-    background-image: url("../images/rubikscube.jpg");
+    background-image: url("rubikscube.jpg");
   }
 
 
