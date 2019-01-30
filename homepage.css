@@ -35,25 +35,25 @@
   }
 
    .header-search{
-     background: #ff0000;
      height: 30px;
-     width: 250px;
-     margin-right: 50px;
+     width: 230px;
+     margin-top: 10px;
+     margin-right: 15px;
      float: right;
      display: flex;
    }
 
    .search{
-     height: 30px;
-     font-size: 20px;
+     height: auto;
+     font-size: 10px;
      display: inline-block;
    }
 
-   .image{
-     height: 33px;
-     width: 60px;
+   .image-button{
+     height: auto;
+     width: 25%;
      font-size: 30px;
-     background-image: url("レンズ.jpg");
+     background-image: url("/Users/natsukiogawa/Desktop/ホームページ/images/レンズ.jpg");
      display: inline-block;
      float: right;
 
@@ -63,7 +63,7 @@
   /* MARK: - First Block Start */
   .first-block {
     height: 800px;
-    background-image: url("field.jpg"); /* 背景画像 */
+    background-image: url("../images/field.jpg"); /* 背景画像 */
     background-repeat: no-repeat; /* 背景画像を繰り返さない */
     background-size: cover; /* 背景画像が比率を維持したまま収まるようにする */
     padding-top: 130px;
@@ -223,20 +223,27 @@
 
   .image-first, .image-second, .image-third{
     background-size:  cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .image-container{
     width: 45%;
-    height: 500px;
+    height: 70%;
+    background: red;
     display: inline-block;
     float: right;
   }
 
+
   .image-first{
-    background-image: url("room.jpg");
+    background-image: url("../images/room.jpg");
   }
   .image-second{
-    background-image: url("road.jpg");
+    background-image: url("../images/road.jpg");
   }
   .image-third{
-    background-image: url("rubikscube.jpg");
+    background-image: url("../images/rubikscube.jpg");
   }
 
 
