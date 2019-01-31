@@ -3,10 +3,6 @@
     padding: 0;
   }
 
-  a:link { color: #fff; }
-  a:visited { color: #fff; }
-  a:hover { color: #00ff7f; }
-  a:active { color: #ff8000; }
 
 
   /* MARK: - Header Start */
@@ -53,7 +49,7 @@
      height: auto;
      width: 25%;
      font-size: 30px;
-     background-image: url("レンズ.jpg");
+     background-image: url("レンズ.jpg");
      display: inline-block;
      float: right;
 
@@ -85,6 +81,28 @@
     align-items: center; /* 中にある要素を垂直方向にどこに置くか決める（今回は真ん中） */
     flex-direction: column; /* 中にある要素が並ぶ向きを指定（今回は縦方向） */
   }
+
+  .setsunan:link{ color: #fff;}
+  .setsunan:visited{ color: #fff}
+  .setsunan:hover { color: #00ff7f;}
+  .setsunan:active{ color: #red;}
+
+  .rubiks:link{ color: #fff;}
+  .rubiks:visited{ color: #fff;}
+  .rubiks:hover { color: #00ff7f; }
+  .rubiks:active{ color: #red;}
+
+  .muscle:link{ color: #fff;}
+  .muscle:visited{ color: #fff;}
+  .muscle:hover { color: #00ff7f; }
+  .muscle:active{ color: #red;}
+
+  .novel:link{ color: #fff;}
+  .novel:visited{ color: #fff;}
+  .novel:hover { color: #00ff7f; }
+  .novel:active{ color: #red;}
+
+
 
   h1 {
     font-size: 70px;
@@ -120,6 +138,7 @@
     width: 100%;
     margin-bottom: 30px;
     border: #fff;
+
   }
 
   .mybtn-fb {
@@ -127,13 +146,29 @@
     font-family: sans-serif;
   }
 
+  .mybtn-fb:hover{
+    background: rgba(49, 73 ,144, 0.9);
+    font-family: sans-serif;
+
+  }
+
   .mybtn-tw {
     background: rgba(57, 169, 242, 0.8);
+    font-family: sans-serif;
+  }
+
+  .mybtn-tw:hover{
+    background: rgba(47, 159, 232, 0.9);
     font-family: sans-serif;
   }
   /* MARK: - First Block End */
   .mybtn-ins {
     background: linear-gradient(-45deg, rgba(207, 46, 146, 0.8), rgba(242, 105, 57, 0.8));
+    font-family: cursive;　
+  }
+
+  .mybtn-ins:hover{
+    background: linear-gradient(-45deg, rgba(197, 36, 136, 0.8), rgba(232, 95, 47, 0.9));
     font-family: cursive;　
   }
   /* MARK: - Second Block Start */
@@ -277,5 +312,8 @@
   }
 
   .icon{
-    
   }
+  .icon:link{ color: #000;}
+  .icon:visited{ color: #000}
+  .icon:hover { color: #505050; }
+  .icon:active{ color: red;}
