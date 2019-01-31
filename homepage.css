@@ -3,8 +3,6 @@
     padding: 0;
   }
 
-
-
   /* MARK: - Header Start */
   header {
     position: fixed; /* 固定する */
@@ -12,12 +10,7 @@
     width: 100%; /* 横幅 */
     background-color: rgba(193, 193, 193, 0.7); /* 背景色 */
     padding-top: 10px; /* 内側の余白 */
-
   }
-
-
-
-
 
   .header-title {
     color: #3c7487; /* 文字の色 */
@@ -49,7 +42,7 @@
      height: auto;
      width: 25%;
      font-size: 30px;
-     background-image: url("レンズ.jpg");
+     background-image: url("レンズ.jpg"); /* リンクを変更する */
      display: inline-block;
      float: right;
 
@@ -59,7 +52,7 @@
   /* MARK: - First Block Start */
   .first-block {
     height: 800px;
-    background-image: url("field.jpg"); /* 背景画像 */
+    background-image: url("field.jpg"); /* 背景画像 */    /* リンクを変更する */
     background-repeat: no-repeat; /* 背景画像を繰り返さない */
     background-size: cover; /* 背景画像が比率を維持したまま収まるようにする */
     padding-top: 130px;
@@ -272,13 +265,13 @@
 
 
   .image-first{
-    background-image: url("room.jpg");
+    background-image: url("room.jpg");    /* リンクを変更する */
   }
   .image-second{
-    background-image: url("road.jpg");
+    background-image: url("road.jpg");    /* リンクを変更する */
   }
   .image-third{
-    background-image: url("rubikscube.jpg");
+    background-image: url("rubikscube.jpg");  /* リンクを変更する */
   }
 
 
