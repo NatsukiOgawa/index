@@ -59,7 +59,7 @@ index/homepage.css
      height: auto;
      width: 25%;
      font-size: 30px;
-     background-image: url("レンズ.jpg"); /* リンクを変更する */
+     background-image: url("lens.jpg"); /* リンクを変更する */
      display: inline-block;
      float: right;
 
@@ -69,7 +69,7 @@ index/homepage.css
   /* MARK: - First Block Start */
   .first-block {
     height: 800px;
-    background-image: url("field.jpg"); /* 背景画像 */    /* リンクを変更する */
+    background-image: url("images/field.jpg"); /* 背景画像 */    /* リンクを変更する */
     background-repeat: no-repeat; /* 背景画像を繰り返さない */
     background-size: cover; /* 背景画像が比率を維持したまま収まるようにする */
     padding-top: 130px;
@@ -282,13 +282,13 @@ index/homepage.css
 
 
   .image-first{
-    background-image: url("room.jpg");    /* リンクを変更する */
+    background-image: url("images/room.jpg");    /* リンクを変更する */
   }
   .image-second{
-    background-image: url("road.jpg");    /* リンクを変更する */
+    background-image: url("images/road.jpg");    /* リンクを変更する */
   }
   .image-third{
-    background-image: url("rubikscube.jpg");  /* リンクを変更する */
+    background-image: url("images/rubikscube.jpg");  /* リンクを変更する */
   }
 
 
