@@ -282,13 +282,13 @@ index/homepage.css
 
 
   .image-first{
-    background-image: url("images/room.jpg");    /* リンクを変更する */
+    background-image: url("index/images/room.jpg");    /* リンクを変更する */
   }
   .image-second{
-    background-image: url("images/road.jpg");    /* リンクを変更する */
+    background-image: url("index/images/road.jpg");    /* リンクを変更する */
   }
   .image-third{
-    background-image: url("images/rubikscube.jpg");  /* リンクを変更する */
+    background-image: url("index/images/rubikscube.jpg");  /* リンクを変更する */
   }
 
 
