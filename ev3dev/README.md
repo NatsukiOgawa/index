@@ -1,5 +1,5 @@
 # robot_0.py
-Hello World for [ev3dev] + [Visual Studio Code][code] + [Python]
+Made up with [ev3dev] + [Visual Studio Code][code] + [Python]
 
 
 ## Overview
