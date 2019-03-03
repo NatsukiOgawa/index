@@ -97,6 +97,11 @@ index/homepage.css
   .setsunan:hover { color: #00ff7f;}
   .setsunan:active{ color: #red;}
 
+  .portal:link{ color: #fff;}
+  .portal:visited{ color: #fff}
+  .portal:hover { color: #00ff7f;}
+  .portal:active{ color: #red;}
+
   .rubiks:link{ color: #fff;}
   .rubiks:visited{ color: #fff;}
   .rubiks:hover { color: #00ff7f; }
