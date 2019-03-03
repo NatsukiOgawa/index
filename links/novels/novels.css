@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  a:link { color: #fff; }
+  a:visited { color: #fff; }
+  a:hover { color: red; }
+  a:active { color: #ff8000; }
+
+
+  /* MARK: - Header Start */
+  header {
+    position: fixed; /* 固定する */
+    height: 50px; /* 高さ */
+    width: 100%; /* 横幅 */
+    background-color: rgba(193, 193, 193, 0.7); /* 背景色 */
+    padding-top: 10px; /* 内側の余白 */
+  }
+
+
+
+
+  .header-title {
+    width: 200px;
+    margin-right: 0px;
+    color: #eeeeee; /* 文字の色 */
+    font-size: 30px; /* 字の大きさ */
+    font-family: cursive; /* 字体 */
+    margin-left: 20px; /* 外側の余白（左側） */
+    display: inline-block;
+    float: left;
+  }
+  /* MARK: - Header End */
+
+  .date{
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 40%;
+    margin-left: 25%;
+    font-size: 30px;
+    font-family: Courier;
+  }
+
+
+  .back{
+    background-image: url("/Users/natsukiogawa/Desktop/ホームページ/images/books.png"); /* 背景画像 */
+    height: auto;
+  }
+
+
+.main{
+  width: 1000px;
+  height: auto;
+  background-repeat: no-repeat; /* 背景画像を繰り返さない */
+  display: inline-block;
+
+}
+  /* MARK: - First Block Start */
+  .first-block, .second-block, .third-block{
+    height: auto;
+    width: 800px;
+    margin-left: 200px;
+    margin-right: 0px;
+    background: rgba(255,255,255,0.8);
+    background-size: cover; /* 背景画像が比率を維持したまま収まるようにする */
+  }
+
+.first-block{
+  padding-top: 70px;
+
+}
+
+  .about_novels-title{
+    font: cursive;
+    font-size: 20px;
+  }
+
+
+
+  .genre-title{
+    font: cursive;
+    font-size: 20px;
+  }
+
+  .author-title{
+    font: cursive;
+    font-size: 20px;
+  }
+
+  .movie-title{
+    font: cursive;
+    font-size: 20px;
+  }
+
+  .drama-title{
+    font: cursive;
+    font-size: 20px;
+  }
+
+  .actors_relation-title{
+    font: cursive;
+    font-size: 20px;
+  }
+
+
+
+
+  .about_novels, .about_novels_title, .genre, .author, .movie, .drama, .third-Block, .actors_relation{
+    height: auto;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+
+
+  footer {
+    background-color: rgba(193, 193, 193, 0.7);
+    text-align: center;
+    font-size: 20px;
+    font-family: fantasy;
+  }
+  .links{
+    height: 100%;
+    width: 200px;
+    background: rgba(0,0,0,0.5);
+    display: inline-block;
+    position: fixed;
+  }
+
+  .page{
+    width: 200px;
+    bottom: 30px;
+    position: fixed;
+  }
+
+ .to_previous{
+   display: inline-block;
+   float: left;
+ }
+
+ .to_next{
+   display: inline-block;
+   float: right;
+ }
+
+  .icon{
+
+  }
