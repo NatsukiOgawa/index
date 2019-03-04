@@ -44,7 +44,7 @@
 
 
   .back{
-    background-image: url("/Users/natsukiogawa/Desktop/ホームページ/images/books.png"); /* 背景画像 */
+    background-image: url("index/images/books.png"); /* 背景画像 */
     height: auto;
   }
 
