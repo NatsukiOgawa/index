@@ -71,7 +71,7 @@ index/homepage.css
   /* MARK: - First Block Start */
   .first-block {
     height: 800px;
-    background-image: url("../images/field.jpg"); /* 背景画像 */    /* リンクを変更する */
+    background-image: url("../../images/field.jpg"); /* 背景画像 */    /* リンクを変更する */
     background-repeat: no-repeat; /* 背景画像を繰り返さない */
     background-size: cover; /* 背景画像が比率を維持したまま収まるようにする */
     padding-top: 130px;
