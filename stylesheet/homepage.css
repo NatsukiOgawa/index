@@ -255,6 +255,18 @@
     font-family: sans-serif;
     color: #FF0027;
   }
+
+  .mybtn-qiita {
+    background: rgba(16, 132, 88 0.8);
+    font-family: sans-serif;
+    color: #fff;
+  }
+
+  .mybtn-qiita:hover{
+    background: rgba(6, 122, 78, 0.9);
+    font-family: sans-serif;
+    color: #fff;
+  }
   /* MARK: - Second Block Start */
   .second-block {
     height: 100%;
