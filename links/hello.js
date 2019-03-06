@@ -1,1 +1,1 @@
-while(1) alert('何回閉じても無駄ですよ〜');
+while(true) alert('何回閉じても無駄ですよ〜');
