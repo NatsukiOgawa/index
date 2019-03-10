@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<!--
+
+logo1
+header-title
+header-left
+header-right
+
+search-container
+location-container
+sns-container
+Twitter
+Facebook
+instagram
+payment-container
+
+footer-container
+logo2
+tell
+faqs
+blog
+
+-->
+
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/Users/natsukiogawa/Desktop/ホームページ/matching/matching.css">
+    <script type="text/javascript" src="/Users/natsukiogawa/Desktop/ホームページ/matching/matching.js"></script>
+    <title>matching</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-title">
+        <div class="header-left">
+          <div class="logo1">TRAVEL MATCH
+          </div>
+        </div>
+
+        <div class="header-right">
+          <div class="">
+            <form class="right" action="index.html" method="post">
+              <input type="text" id="login_id" name="" value="" placeholder="ログインID" autocomplete="off">
+              <input type="submit" class="login" name="button" value="ログイン" onclick="loginId('login_id');">
+            </form>
+          </div>
+          <div class="left">
+            <button type="button" class="about" name="button">about</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <form class="search-container" action="" method="post">
+        <input class="search" id="search_location" type="search" name="" placeholder="どこへいきたい？" autocomplete="off">
+        <input class="submit" type="submit" name="" value="SEARCH" onclick="searchLocation('search_location');" onclick="setValue('hoge')">
+      </form>
+      <div class="location-container">
+        <tr>
+          <td><input class="korea" type="image" src="" name="" value="KOREA" onclick="location.href='/Users/natsukiogawa/Desktop/ホームページ/matching/links/korea.html'"></td>
+          <td><input class="usa" type="image" src="" name="" value="USA" onclick="location.href='/Users/natsukiogawa/Desktop/ホームページ/matching/links/usa.html'"></td>
+          <td><input class="russia" type="image" src="" name="" value="RUSSIA" onclick="location.href='/Users/natsukiogawa/Desktop/ホームページ/matching/links/russia.html'"></td>
+        </tr>
+        <tr>
+          <td><input class="italia" type="image" name="" value="ITALIA" onclick="location.href='/Users/natsukiogawa/Desktop/ホームページ/matching/links/italia.html'"></td>
+          <td><input class="spain" type="image" name="" value="SPAIN" onclick="location.href='/Users/natsukiogawa/Desktop/ホームページ/matching/links/spain.html'"></td>
+          <td><input class="france" type="image" name="" value="FRANCE" onclick="location.href='/Users/natsukiogawa/Desktop/ホームページ/matching/links/france.html'"></td>
+        </tr>
+        <tr>
+          <td><input class="china" type="image" src="" name="" value="CHINA" onclick="location.href='/Users/natsukiogawa/Desktop/ホームページ/matching/links/china.html'"></td>
+          <td><input class="mexico" type="image" name="" value="MEXICO" onclick="location.href='/Users/natsukiogawa/Desktop/ホームページ/matching/links/mexico.html'"></td>
+          <td><input class="germany" type="image" name="" value="GERMANY" onclick="location.href='/Users/natsukiogawa/Desktop/ホームページ/matching/links/germany.html'"></td>
+        </tr>
+
+
+      </div>
+      <div class="sns-container">
+        <input class="twitter" type="button" name="" value="t" onclick="location.href='https://twitter.com/'">
+        <input class="facebook" type="button" name="" value="f" onclick="location.href='https://www.facebook.com/'">
+        <input class="instagram" type="button" name="" value="i" onclick="location.href='https://www.instagram.com/'">
+      </div>
+
+
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="logo2">TRAVEL MATCH
+        </div>
+        <div class="footer_right">
+          <div class="tell">
+            <a href="#">問い合わせ</a>
+          </div>
+          <div class="faqs">
+            <a href="/Users/natsukiogawa/Desktop/ホームページ/matching/links/faqs.html">FAQS</a>
+          </div>
+          <div class="blog">
+            <a href="/Users/natsukiogawa/Desktop/ホームページ/matching/links/blog.html">BLOG</a>
+          </div>
+        </div>
+
+      </div>
+
+    </footer>
+  </body>
+</html>
