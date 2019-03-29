@@ -1,5 +1,5 @@
 # Introduction
-Index.html is "my page". when I start-up chrome, this page will opened. 
+This is my page to learn and write down about programming.
 
 # Links
 This page has some links to sns, such as Twitter, facebok, instagram, so on.
