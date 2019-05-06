@@ -3,6 +3,9 @@
     padding: 0;
   }
 
+body{
+  background: rgba(200, 200, 200, 1.0);
+}
   /* MARK: - Header Start */
   header {
     position: fixed; /* 固定する */
@@ -28,7 +31,7 @@
   .header_links{
     width: 200px;
     height: 80%;
-    background: rgba(100, 123, 200, 0.7); /* 背景色 */
+    background: rgba(100, 123, 200, 0.9); /* 背景色 */
     border-radius: 10px;
     text-align: center;
     display: inline-block;
@@ -38,28 +41,43 @@
     width: 100%;
     height: 100%;
     border-radius: 10px;
-    background: rgba(100, 123, 200, 0.7);
+    background: rgba(100, 123, 200, 0.9);
     font-size: 15px;
     font-family: inherit;
   }
+
+  .aboutSite:link{ color: #fff;}
+  .aboutSite:visited{ color: #fff}
+  .aboutSite:hover { color: rgba(70, 93, 170, 1.0);}
+  .aboutSite:active{ color: #red;}
 
   .portfolio{
     width: 100%;
     height: 100%;
     border-radius: 10px;
-    background: rgba(100, 123, 200, 0.7);
+    background: rgba(100, 123, 200, 0.9);
     font-size: 15px;
     font-family: inherit;
   }
+
+  .portfolio:link{ color: #fff;}
+  .portfolio:visited{ color: #fff}
+  .portfolio:hover { color: rgba(70, 93, 170, 1.0);}
+  .portfolio:active{ color: #red;}
 
   .qwerty{
     width: 100%;
     height: 100%;
     border-radius: 10px;
-    background: rgba(100, 123, 200, 0.7);
+    background: rgba(100, 123, 200, 0.9);
     font-size: 15px;
     font-family: inherit;
   }
+
+  .qwerty:link{ color: #fff;}
+  .qwerty:visited{ color: #fff}
+  .qwerty:hover { color: rgba(70, 93, 170, 1.0);}
+  .qwerty:active{ color: #red;}
 
    .header-search{
      height: 30px;
@@ -79,7 +97,7 @@
      height: auto;
      width: 25%;
      font-size: 30px;
-     background-image: url("qwerty.jpg"); /* リンクを変更する */
+     background-image: url("../images/github.jpg"); /* リンクを変更する */
      display: inline-block;
      float: right;
 
@@ -87,11 +105,20 @@
   /* MARK: - Header End */
 
 
+
+
+
+
+
+
+
+
+
   /* MARK: - First Block Start */
   .first-block {
     height: 800px;
     width: 80%;
-    background: rgba(70, 93, 170, 1.0);
+    background: rgba(255, 255, 255, 1.0);
     background-repeat: no-repeat; /* 背景画像を繰り返さない */
     background-size: cover; /* 背景画像が比率を維持したまま収まるようにする */
     padding-top: 130px;
@@ -99,6 +126,9 @@
     margin-right: 15%;
     text-align: center;
     border-radius: 0px 0px 30px 30px;
+  }
+  .iam{
+      position: fixed;
   }
 
   .info-container {
@@ -116,6 +146,43 @@
     flex-direction: column; /* 中にある要素が並ぶ向きを指定（今回は縦方向） */
   }
 
+  .setsunan:link{ color: #fff;}
+  .setsunan:visited{ color: #fff}
+  .setsunan:hover { color: rgba(70, 93, 170, 1.0);}
+  .setsunan:active{ color: #red;}
+
+  .portal:link{ color: #fff;}
+  .portal:visited{ color: #fff}
+  .portal:hover { color: rgba(70, 93, 170, 1.0);}
+  .portal:active{ color: #red;}
+
+  .rubiks:link{ color: #fff;}
+  .rubiks:visited{ color: #fff;}
+  .rubiks:hover { color: rgba(70, 93, 170, 1.0); }
+  .rubiks:active{ color: #red;}
+
+  .muscle:link{ color: #fff;}
+  .muscle:visited{ color: #fff;}
+  .muscle:hover { color: rgba(70, 93, 170, 1.0); }
+  .muscle:active{ color: #red;}
+
+  .novel:link{ color: #fff;}
+  .novel:visited{ color: #fff;}
+  .novel:hover { color: rgba(70, 93, 170, 1.0); }
+  .novel:active{ color: #red;}
+
+  .omake:link{ color: #fff;}
+  .omake:visited{ color: #fff;}
+  .omake:hover { color: rgba(70, 93, 170, 1.0); }
+  .omake:active{ color: #red;}
+
+  .menu:link{ color: #fff;}
+  .menu:visited{ color: #fff;}
+  .menu:hover { color: rgba(70, 93, 170, 1.0); }
+  .menu:active{ color: #red;}
+
+
+
   h1 {
     font-size: 70px;
     font-family: fantasy;
@@ -126,7 +193,7 @@
     color: #fff;
     width: 80%;
     border-radius: 10px;
-    text-align: left;
+    text-align: center;
     padding-left: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -137,14 +204,319 @@
 
 
 
+  /* MARK: - buttonContainer Start */
+
+  .button-container {
+    width: 300px;
+    height: 330px;
+    margin: 50px;
+    text-align: center;
+    margin-left: 11%;
+    background: #cccccc;
+    border-radius: 30px;
+  }
+
+  .button-facebook{
+
+  }
+
+  .button-twitter{
+
+  }
+
+  .sns-btn,.link-btn{
+    color: #fff;
+    font-size: 15px;
+    height: 44px;
+    width: 100px;
+    margin-bottom: 30px;
+    border: #fff;
+    border-radius: 22px;
+
+  }
+
+  .sns-buttons{
+    width: 40%;
+    height: 80%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    display: inline-block;
+    float: left;
+  }
+
+  .link-buttons{
+    width: 40%;
+    height: 80%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right: 5%;
+    display: inline-block;
+    float: right;
+  }
+
+  .mybtn-fb {
+    background: rgba(59, 83, 154, 0.8);
+    font-family: sans-serif;
+  }
+
+  .mybtn-fb:hover{
+    background: rgba(49, 73 ,144, 0.9);
+    font-family: sans-serif;
+
+  }
+
+  .mybtn-tw {
+    background: rgba(57, 169, 242, 0.8);
+    font-family: sans-serif;
+  }
+
+  .mybtn-tw:hover{
+    background: rgba(47, 159, 232, 0.9);
+    font-family: sans-serif;
+  }
+  /* MARK: - First Block End */
+  .mybtn-ins {
+    background: linear-gradient(-45deg, rgba(207, 46, 146, 0.8), rgba(242, 105, 57, 0.8));
+    font-family: cursive;　
+  }
+
+  .mybtn-ins:hover{
+    background: linear-gradient(-45deg, rgba(197, 36, 136, 0.8), rgba(232, 95, 47, 0.9));
+    font-family: cursive;
+  }
+
+  .mybtn-git{
+    background: rgba(65, 131, 196, 0.8);
+    font-family: sans-serif;
+  }
+
+  .mybtn-git:hover{
+    background: rgba(55, 121, 186, 0.9);
+    font-family: sans-serif;
+  }
+
+  .mybtn-go {
+    background: rgba(256, 256, 256, 0.8);
+    font-family: sans-serif;
+    color: #000000;
+  }
+
+  .mybtn-go:hover{
+    background: rgba(226, 226 ,226, 0.9);
+    font-family: sans-serif;
+    color: #000000;
+  }
+
+  .g_1{
+    color: #4285F4;
+  }
+
+  .o_1{
+    color: #DB4437
+  }
+
+  .o_2{
+    color: #F4B400;
+  }
+  .g_2{
+    color: #4285F4;
+  }
+
+  .l{
+    color: #0F9D58;
+  }
+  .e{
+    color: #DB4437;
+  }
+
+  .mybtn-yah {
+    background: rgba(256, 256, 256, 0.8);
+    font-family: sans-serif;
+    color: #FF0027;
+  }
+
+  .mybtn-yah:hover{
+    background: rgba(226, 226 ,226, 0.9);
+    font-family: sans-serif;
+    color: #FF0027;
+  }
+
+  .mybtn-gmail {
+    background: rgba(256, 256, 256, 0.8);
+    font-family: sans-serif;
+    color: #FF0027;
+  }
+
+  .mybtn-gmail:hover{
+    background: rgba(226, 226 ,226, 0.9);
+    font-family: sans-serif;
+    color: #FF0027;
+  }
+
+  .mybtn-qiita {
+    background: rgba(50, 205, 50, 0.8);/* #32cd32 */
+    font-family: sans-serif;
+    color: #fff;
+  }
+
+  .mybtn-qiita:hover{
+    background: rgba(40, 195 ,40, 0.9);
+    font-family: sans-serif;
+    color: #fff;
+  }
+  /* MARK: - ButtonContainer End */
 
 
 
 
 
 
-  /* MARK: - main Start */
+
+
+
+
+
+
+
+  /* MARK: - Second Block Start */
+  .second-block {
+    height: 100%;
+    width: 80%;
+    border-radius: 30px 30px 0px 0px;
+    background: rgba(255, 255, 255, 1.0);
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+  .story-title {
+    background: rgba(100, 123, 200, 0.9);
+    font-size: 70px;
+    font-family: fantasy;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 30px;
+
+
+  }
+
+  .my-story-container {
+    width: 100%;
+  }
+
+  .my-story-title {
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center; /* 文字の中央寄せ */
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+
+  .my-story-container-first, .my-story-container-second, .my-story-container-thrid{
+    height: 600px;
+    margin-left: 140px;
+    margin-right: 200px;
+    margin-bottom: 60px;
+  }
+
+  .my-story-first, .my-story-second, .my-story-third{
+    width: 45%;
+    padding: 0px;
+    font-family: cursive;
+    display: inline-block;
+    float: left;
+  }
+
+  .plus-s{
+    height: 50%;
+    margin-top: 0px;
+  }
+
+  .minus-s{
+    height: 50%;
+  }
+
+  .plus{
+    width: 15%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+  }
+
+  .plus-contents{
+    width: 80%;
+    height: 100%;
+    display: inline-block;
+    float: right;
+  }
+
+  .minus{
+    width: 15%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+  }
+
+  .minus-contents{
+    width: 80%;
+    height: 100%;
+    display: inline-block;
+    float: right;
+  }
+
+  .image-first, .image-second, .image-third{
+    background-size:  cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .image-container{
+    width: 45%;
+    height: 70%;
+    background: red;
+    display: inline-block;
+    float: right;
+  }
+
+
+  .image-first{
+    background-image: url("../images/road.jpg");    /* リンクを変更する */
+  }
+  .image-second{
+    background-image: url("../images/books.jpg");    /* リンクを変更する */
+  }
+  .image-third{
+    background-image: url("../images/hand.jpg");  /* リンクを変更する */
+  }
+
+
+
+  .my-story-body {
+    width: 700px;
+    height: auto;
+  }
+
+
+  /* MARK: - Second Block End */
+  .container{
+    background: rgba(200, 200, 200, 0.5);
+    display: flex;
+    flex-direction: row; /* 中にある要素が並ぶ向きを指定（今回は横方向） */
+  }
+
+  .links{
+
+  }
+
+ .first-block, .second-block{
+    margin-left: 60px;
+    margin-right: 60px;
+ }
   /* MARK: - main End */
+
 
   /* MARK: - footer Start */
   footer {
