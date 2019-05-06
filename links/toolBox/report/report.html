@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./report.css">
+    <meta charset="utf-8">
+    <script src="./report.js">
+
+    </script>
+    <title></title>
+  </head>
+  <body>
+      <div class="title-container">
+        <div class="theme">
+          <p class="content">題名</p>
+          <input type="text" name="theme" value="">
+        </div>
+        <div class="elements">
+          <form class="" action="index.html" method="post">
+            <p class="content">スタート</p>
+            <input type="text" name="strart" value="">
+            <p class="content">ゴール</p>
+            <input type="text" name="goal" value="">
+            <input type="button" name="" value="">
+            <p class="content">目安時間</p>
+            <input type="text" name="time" value="">
+          </form>
+
+        </div>
+      </div>
+
+      <div class="blocks">
+
+        <div class="editor">
+          <div class="header-container">
+            <p class="content">序論(結局何が言いたいかを簡潔に述べる)</p>
+            <textarea id="header-textarea" name="name" rows="8" cols="50" onkeyup="ShowLength_header(value)" onchange="headercontents(value)" onkeyup="ShowLength_works(value)"></textarea>
+            <p  class="content" id="header-counter">0文字</p>
+          </div>
+
+          <div class="main-container">
+            <p class="content">本論(序論に向かって根拠を並べていく)</p>
+            <textarea id="main-textarea" name="name" rows="8" cols="50" onkeyup="ShowLength_main(value)" onchange="maincontents(value)" onkeyup="ShowLength_works(value)"></textarea>
+            <p  class="content" id="main-counter">0文字</p>
+          </div>
+
+          <div class="footer-container">
+            <p class="content">結論(裁判でいうと判決)</p>
+            <textarea id="footer-textarea" name="name" rows="8" cols="50" onkeyup="ShowLength_footer(value)" onchange="footercontents(value)" onkeyup="ShowLength_works(value)"></textarea>
+            <p  class="content" id="footer-counter">0文字</p>
+          </div>
+        </div>
+
+        <div class="works">
+          <div class="works-container">
+            <p class="label-header" id="label-header"></p>
+            <p class="label-main" id="label-main"></p>
+            <p class="label-footer" id="label-footer"></p>
+            <p  class="content" id="works-counter">0文字</p>
+          </div>
+        </div>
+
+      </div>
+      <footer>
+        <div class="sankou">
+          <p>参考文献について</p>
+          <p class="bunken">参考文献：<span class="author" id="author"></span> <span class="year" id="year"></span> <span class="page_title" id="page_title"></span> <span class="url" id="url"></span> <span class="access" id="access"></span>  </p>
+          <div class="inputs">
+            <input placeholder="著者"id="author_input" name="name" onchange="author_contents(value)" ></input>
+            <input placeholder="発行年"id="year_input" name="name" onchange="year_contents(value)" ></input>
+            <input placeholder="ページタイトル"id="page_title_input" name="name" onchange="page_title_contents(value)" ></input>
+            <input placeholder="URL"id="url_input" name="name" onchange="url_contents(value)" ></input>
+            <input placeholder="アクセス(YYYY/MM/DD)"id="access_input" name="name" onchange="access_contents(value)" ></input>
+          </div>
+        </div>
+      </footer>
+  </body>
+</html>

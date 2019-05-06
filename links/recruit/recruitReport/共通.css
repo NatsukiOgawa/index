@@ -1,0 +1,12 @@
+p,hr,ul,li,h1,h2,h3{
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*
+トピックタイトル：h1
+固有名詞：h2
+文中の強調：h3
+ */

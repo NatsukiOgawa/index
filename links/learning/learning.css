@@ -97,7 +97,7 @@ body{
      height: auto;
      width: 25%;
      font-size: 30px;
-     background-image: url("../images/github.jpg"); /* リンクを変更する */
+     background-image: url("qwerty.jpg"); /* リンクを変更する */
      display: inline-block;
      float: right;
 
@@ -483,13 +483,13 @@ body{
 
 
   .image-first{
-    background-image: url("../images/road.jpg");    /* リンクを変更する */
+    background-image: url("qwerty.jpg");    /* リンクを変更する */
   }
   .image-second{
-    background-image: url("../images/books.jpg");    /* リンクを変更する */
+    background-image: url("qwerty.jpg");    /* リンクを変更する */
   }
   .image-third{
-    background-image: url("../images/hand.jpg");  /* リンクを変更する */
+    background-image: url("qwerty.jpg");  /* リンクを変更する */
   }
 
 

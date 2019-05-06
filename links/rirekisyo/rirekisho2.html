@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>摂南の履歴書</title>
+    <link rel="stylesheet" href="./rirekisho.css">
+    <script type="text/javascript" src="./rirekisho2.js">
+
+    </script>
+  </head>
+  <body>
+    <div class="omote">
+
+    <p class="rirekisho">自己紹介書</p>
+    <table>
+
+
+    <tr>
+      <td rowspan="2" width="120px">卒業研究</td>
+      <td width="100px">テーマ</td>
+      <td class="theme" id="theme"></td>
+    </tr>
+    <tr>
+      <td>概　要</td>
+      <td class="gaiyou" id="gaiyou"></td>
+    </tr>
+    <tr>
+      <td>得意科目・分野</td>
+      <td class="tokui" id="tokui" colspan="2"></td>
+    </tr>
+    <tr>
+      <td height="200px" >自己PR(私の性格的な長所などを中心として)</td>
+      <td class="mypr" id="mypr" colspan="2"  ></td>
+    </tr>
+
+    <tr>
+      <td>課外活動（クラブ、サークル、社会活動など)</td>
+      <td class="kagai" id="kagai" colspan="2"></td>
+    </tr>
+    <tr>
+      <td>資格・免許・賞など</td>
+      <td class="sikaku" id="sikaku" colspan="2"></td>
+    </tr>
+    <tr>
+      <td>趣味・特技など</td>
+      <td class="tokugi" id="tokugi" colspan="2"></td>
+    </tr>
+
+    <tr>
+      <td>志望動機</td>
+      <td class="sibou" id="sibou" colspan="2"></td>
+    </tr>
+  </table>
+
+  <footer>
+    <input placeholder="テーマ"id="theme-textarea" name="name"  onkeyup="ShowLength_theme(value)" onchange="themecontents(value)" onchange="theme_works(value)"></input>
+    <input placeholder="概要"id="gaiyou-textarea" name="name"  onkeyup="ShowLength_gaiyou(value)" onchange="gaiyoucontents(value)" onchange="gaiyou_works(value)"></input>
+
+    <input placeholder="得意科目・分野"id="tokui-textarea" name="name"  onkeyup="ShowLength_tokui(value)" onchange="tokuicontents(value)" onchange="tokui_works(value)"></input>
+    <input size="40px" placeholder="自己PR(私の性格的な長所などを中心として)"id="mypr-textarea" name="name"  onkeyup="ShowLength_mypr(value)" onchange="myprcontents(value)" onchange="mypr_works(value)"></input>
+    <input size="40px" placeholder="課外活動（クラブ、サークル、社会活動など）"id="kagai-textarea" name="name"  onkeyup="ShowLength_kagai(value)" onchange="kagaicontents(value)" onchange="kagai_works(value)"></input>
+    <input placeholder="資格・免許・賞など" id="sikaku-textarea" name="name"  onkeyup="ShowLength_sikaku(value)" onchange="sikakucontents(value)" onchange="sikaku_works(value)"></input>
+    <input placeholder="趣味・特技など"id="tokugi-textarea" name="name"  onkeyup="ShowLength_tokugi(value)" onchange="tokugicontents(value)" onchange="tokugi_works(value)"></input>
+    <textarea placeholder="志望動機" id="sibou-textarea" name="name" rows="20" cols="50" onkeyup="ShowLength_sibou(value)" onchange="siboucontents(value)" onchange="sibou_works(value)"></textarea>
+
+    <a href="./rirekisho.html">オモテへ</a>
+  </footer>
+  </body>
+
+</div>
+</html>

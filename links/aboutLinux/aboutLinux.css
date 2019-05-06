@@ -1,0 +1,17 @@
+.large{
+  font-size: 45px;
+}
+
+.middle{
+  font-size: 30px;
+}
+
+.small{
+  font-size: 15px;
+}
+
+.large,.middle,.small,hr{
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}

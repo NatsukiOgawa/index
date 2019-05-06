@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./rirekisho.css">
+    <script type="text/javascript" src="./rirekisho.js">
+
+    </script>
+    <title>摂南の履歴書</title>
+  </head>
+  <body>
+    <div class="omote">
+
+    <p class="rirekisho">履歴書</p>
+    <table class="personal">
+
+
+    <tr>
+      <td>フリガナ</td>
+      <td class="name_furigana" id="name_furigana"></td>
+      <td class="face" rowspan="4">写　真<br><br><br>
+    </tr>
+    <tr>
+      <td>氏名</td>
+      <td class="name" id="name"></td>
+      </td>
+    </tr>
+    <tr>
+      <td>生年月日</td>
+      <td class="seinengappi" id="seinengappi"></td>
+    </tr>
+    <tr>
+      <td>フリガナ</td>
+      <td class="jusho_furigana" id="jusho_furigana"></td>
+    </tr>
+    <tr>
+      <td>現住所</td>
+      <td class="yubin" id="yubin"></td>
+      <td>T E L<br>(   )</td>
+
+
+    </tr>
+    <tr>
+      <td>E-mail</td>
+      <td>￥￥￥￥￥￥￥￥</td>
+      <td>携　帯
+        <br>￥￥￥￥￥￥￥￥</td>
+    </tr>
+  </table>
+  <table>
+    <tr>
+      <th>年</th>
+      <th>月</th>
+      <th>学歴・職歴(学歴は高等学校卒業から記入)</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td class="gaku_syoku">学歴
+      </td>
+    </tr>
+    <tr>
+      <td class="year">20¥¥</td>
+      <td class="manth">3</td>
+      <td>￥￥￥￥￥￥￥￥高等学校
+        <span class="sotsu_nyu">卒業</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="year">20¥¥</td>
+      <td class="manth">4</td>
+      <td>￥￥大学￥￥学部￥￥科
+        <span class="sotsu_nyu">入学</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="year">20¥¥</td>
+      <td class="manth">3</td>
+      <td>￥￥大学￥￥学部￥￥科
+        <span class="sotsu_nyu">卒業見込</span>
+      </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td class="gaku_syoku">職歴
+      </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>なし</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>
+        <span class="sotsu_nyu">以上</span>
+      </td>
+    </tr>
+
+
+  </table>
+
+  </body>
+  <footer>
+    <input placeholder="フリガナ"id="name_furigana_textarea" name="name"  onkeyup="ShowLength_name_furigana(value)" onchange="name_furigana_contents(value)"></input>
+    <input placeholder="氏名" id="name_textarea" name="name"  onkeyup="ShowLength_name(value)" onchange="namecontents(value)" onchange="name_works(value)"></input>
+    <input placeholder="生年月日"id="seinengappi_textarea" name="name"  onkeyup="ShowLength_seinengappi(value)" onchange="seinengappicontents(value)" onchange="seinengappi_works(value)"></input>
+    <input placeholder="フリガナ"id="jusho_furigana_textarea" name="name"  onkeyup="ShowLength_jusho_furigana(value)" onchange="jusho_furiganacontents(value)" onchange="jusho_furigana_works(value)"></input>
+    <input placeholder="郵便番号"id="yubin_textarea" name="name"  onkeyup="ShowLength_yubin(value)" onchange="yubincontents(value)" onchange="yubin_works(value)"></input>
+    <input placeholder="現住所"id="jusho-textarea" name="name"  onkeyup="ShowLength_jusho(value)" onchange="jushocontents(value)" onchange="jusho_works(value)"></input>
+    <input placeholder="E-mail"id="theme-textarea" name="name"  onkeyup="ShowLength_theme(value)" onchange="themecontents(value)" onchange="theme_works(value)"></input>
+    <input placeholder="T E L"id="theme-textarea" name="name"  onkeyup="ShowLength_theme(value)" onchange="themecontents(value)" onchange="theme_works(value)"></input>
+    <input placeholder="携 帯"id="theme-textarea" name="name"  onkeyup="ShowLength_theme(value)" onchange="themecontents(value)" onchange="theme_works(value)"></input>
+
+    <a href="./rirekisho2.html">裏へ</a>
+  </footer>
+</div>
+
+</html>

@@ -6,7 +6,7 @@
 body{
   width: 100%;
   height: auto;
-  background-image: url("/Users/natsukiogawa/Desktop/ホームページ/matching/images/外国.jpg");
+  background-image: url("./images/外国.jpg");
 }
 
 header{
@@ -119,7 +119,7 @@ display: inline-block;
 
 
 .japan{
-  background-image: url("/Users/natsukiogawa/Desktop/ホームページ/matching/images/japan.jpg");
+  background-image: url("./images/japan.jpg");
 }
 
 .japan:link{ color: #000;}
@@ -128,7 +128,7 @@ display: inline-block;
 .japan:active{ color: red;}
 
 .korea{
-  background-image: url("/Users/natsukiogawa/Desktop/ホームページ/matching/images/korea.jpg");
+  background-image: url("./images/korea.jpg");
 }
 
 .korea:link{ color: #000;}
@@ -137,7 +137,7 @@ display: inline-block;
 .korea:active{ color: red;}
 
 .usa{
-  background-image: url("/Users/natsukiogawa/Desktop/ホームページ/matching/images/usa.jpg");
+  background-image: url("./images/usa.jpg");
 }
 
 .usa:link{ color: #000;}
@@ -146,7 +146,7 @@ display: inline-block;
 .usa:active{ color: red;}
 
 .russia{
-  background-image: url("/Users/natsukiogawa/Desktop/ホームページ/matching/images/russia.jpg");
+  background-image: url("./images/russia.jpg");
 }
 
 .russia:link{ color: #000;}
@@ -155,7 +155,7 @@ display: inline-block;
 .russia:active{ color: red;}
 
 .china{
-  background-image: url("/Users/natsukiogawa/Desktop/ホームページ/matching/images/china.jpg");
+  background-image: url("./images/china.jpg");
 }
 
 .china:link{ color: #000;}
@@ -164,7 +164,7 @@ display: inline-block;
 .china:active{ color: red;}
 
 .italia{
-  background-image: url("/Users/natsukiogawa/Desktop/ホームページ/matching/images/italia.jpg");
+  background-image: url("./images/italia.jpg");
 }
 
 .italia:link{ color: #000;}
@@ -173,7 +173,7 @@ display: inline-block;
 .italia:active{ color: red;}
 
 .spain{
-  background-image: url("/Users/natsukiogawa/Desktop/ホームページ/matching/images/spain.jpg");
+  background-image: url("./images/spain.jpg");
 }
 
 .spain:link{ color: #000;}
@@ -182,7 +182,7 @@ display: inline-block;
 .spain:active{ color: red;}
 
 .france{
-  background-image: url("/Users/natsukiogawa/Desktop/ホームページ/matching/images/france.jpg");
+  background-image: url("./images/france.jpg");
 }
 
 .france:link{ color: #000;}
@@ -191,7 +191,7 @@ display: inline-block;
 .france:active{ color: red;}
 
 .mexico{
-  background-image: url("/Users/natsukiogawa/Desktop/ホームページ/matching/images/mexico.jpg");
+  background-image: url("./images/mexico.jpg");
 }
 
 .mexico:link{ color: #000;}
@@ -200,7 +200,7 @@ display: inline-block;
 .mexico:active{ color: red;}
 
 .germany{
-  background-image: url("/Users/natsukiogawa/Desktop/ホームページ/matching/images/germany.jpg");
+  background-image: url("./images/germany.jpg");
 }
 
 .germany:link{ color: #000;}

@@ -3,11 +3,11 @@ function search(idname){
   var result = document.getElementById(idname).value;
   // 最終的な処理を記述する
   // これ以降に、文字列を扱う検索システムを記述する
-  if (result.indexOf('JAPAN')!==-1 || result.indexOf('japan')!==-1){
-    alert("JAPAN だよ！");
+  if (result.indexOf('html')!==-1 || result.indexOf('HTML')!==-1){
+    alert("「html」「HTML」だよ！");
   }else
-  if (result.indexOf('KOREA')!==-1 || result.indexOf('korea')!==-1) {
-    alert('KOREA だよ！');
+  if (result.indexOf('css')!==-1 || result.indexOf('CSS')!==-1) {
+    alert('「css」「CSS」だよ！');
   }else
   if (result.indexOf('javascript')!==-1 || result.indexOf('JAVASCRIPT')!==-1) {
     alert('「javascript」「JAVASCRIPT」だよ！');
@@ -18,6 +18,8 @@ function search(idname){
   if (result.indexOf('java')!==-1 || result.indexOf('JAVA')!==-1) {
     alert('「java」「JAVA」だよ！');
     colorChange('list');
+  }else{
+    alert("検索ワードを入力してください。");
     }
   }
 

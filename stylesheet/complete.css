@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* MARK: - Header Start */
+header {
+  position: fixed; /* 固定する */
+  height: 50px; /* 高さ */
+  width: 100%; /* 横幅 */
+  background-color: rgba(193, 193, 193, 0.7); /* 背景色 */
+  padding-top: 10px; /* 内側の余白 */
+}
+
+.header-title {
+  color: #3c7487; /* 文字の色 */
+  font-size: 30px; /* 字の大きさ */
+  font-family: cursive; /* 字体 */
+  margin-left: 20px; /* 外側の余白（左側） */
+}
+/* MARK: - Header End */
+
+/* MARK: - First Block Start */
+.first-block {
+  height: 800px;
+  background-image: url("../images/asai.jpg"); /* 背景画像 */
+  background-repeat: no-repeat; /* 背景画像を繰り返さない */
+  background-size: cover; /* 背景画像が比率を維持したまま収まるようにする */
+  padding-top: 130px;
+  padding-left: 60px;
+}
+
+.info-container {
+  height: 360px;
+  width: 500px;
+  background-color: rgba(255, 255, 255, 0.6);
+  font-family: cursive;
+  margin-bottom: 100px;
+  display: flex; /* 中にある要素を並び替えるための命令文 */
+  justify-content: center; /* 中にある要素を水平方向にどこに置くか決める（今回は真ん中） */
+  align-items: center; /* 中にある要素を垂直方向にどこに置くか決める（今回は真ん中） */
+  flex-direction: column; /* 中にある要素が並ぶ向きを指定（今回は縦方向） */
+}
+
+h1 {
+  font-size: 70px;
+  font-family: fantasy;
+}
+
+.attribution {
+  background-color: rgba(0, 73, 118, 0.6);
+  color: #fff;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.button-container {
+  width: 500px;
+}
+
+.sns-btn {
+  color: #fff;
+  font-size: 15px;
+  height: 44px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.mybtn-fb {
+  background: #3b539a;
+}
+
+.mybtn-tw {
+  background: #39a9f2;
+}
+/* MARK: - First Block End */
+
+/* MARK: - Second Block Start */
+.second-block {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.story-title {
+  font-size: 70px;
+  font-family: fantasy;
+  text-align: center;
+  padding-left: 90px;
+  margin-bottom: 50px;
+  width: 90vw;
+}
+
+.my-story-container {
+  width: 90vw;
+}
+
+.my-story {
+  padding-left: 90px;
+  padding-bottom: 30px;
+  font-family: cursive;
+}
+
+.my-story-title {
+  width: 700px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center; /* 文字の中央寄せ */
+}
+.my-story-body {
+  width: 700px;
+}
+
+.image-first{
+  background-image: url("../images/room.jpg");
+  background-size:  cover;
+  width: 400px;
+  height: 200px;
+  margin-left: 60px;
+}
+.image-second{
+  background-image: url("../images/cat.jpg");
+  background-size:  cover;
+  width: 400px;
+  height: 200px;
+  margin-left: 60px;
+}
+.image-third{
+  background-image: url("../images/coffee.jpg");
+  background-size:  cover;
+  width: 400px;
+  height: 200px;
+  margin-left: 60px;
+}
+/* MARK: - Second Block End */
+.container{
+  display: flex;
+  flex-direction: row; /* 中にある要素が並ぶ向きを指定（今回は横方向） */
+}
+
+footer {
+  background-color: rgba(193, 193, 193, 0.7);
+  text-align: center;
+  font-size: 20px;
+  font-family: fantasy;
+}

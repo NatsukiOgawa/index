@@ -1,0 +1,48 @@
+body{
+  height: auto;
+}
+
+.omote{
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+table{
+  width: 800px;
+  height: auto;
+  border: solid 3px black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.personal{
+  text-align: center;
+}
+
+.year,.manth{
+  text-align: center;
+}
+
+th, td{
+  border: solid 2px black;
+
+}
+.gaku_syoku{
+  text-align: center;
+}
+
+.sotsu_nyu{
+  display: inline-block;
+  float: right;
+}
+
+.rirekisho{
+    text-align: center;
+}
+
+.face{
+  text-align: center;
+}

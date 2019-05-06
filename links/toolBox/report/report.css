@@ -1,0 +1,111 @@
+ .main-container, .header-container, .footer-container{
+  margin-top: 30px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background: blue;
+}
+
+.works-container{
+  margin-top: 70px;
+  margin-left: 20px;
+  margin-right: 40px;
+  width: 500px;
+  background: #303030;
+}
+
+.title-container{
+  background: #303030;
+  margin-top: 30px;
+  margin-left: 160px;
+  margin-right: 160px;
+  height: 280px;
+}
+
+.blocks{
+  width: auto;
+  height: 1000px;
+  background: #505050;
+  margin-left: 160px;
+  margin-right: 160px;
+}
+
+.editor{
+  display: inline-block;
+  float: left;
+}
+
+.label-header{
+  color: white;
+  word-wrap: break-word;
+  }
+.label-main{
+  color: white;
+  word-wrap: break-word;
+  }
+.label-footer{
+  color: white;
+  word-wrap: break-word;
+}
+
+
+
+
+
+.works{
+  display: inline-block;
+  float: right;
+}
+
+.works-container{
+  display: inline-block;
+  float: left;
+}
+
+
+
+.theme{
+  font-size: 40px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  display: inline-block;
+  float: left;
+}
+
+.elements{
+  display: inline-block;
+  float: right;
+}
+
+.sankou{
+  width: 550px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background: grey;
+}
+
+.buken,.author,.year,.page_title,.url,.access{
+  word-wrap: break-word;
+}
+.start{
+
+}
+
+.goal{
+
+}
+
+.time{
+
+}
+
+.content{
+  color: #ffffff;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+textarea{
+  font-size: 20px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
