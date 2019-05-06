@@ -1,9 +1,15 @@
 # Introduction
-This is my page to learn and write down about programming.
+大学の課題や趣味, 勉強がてらにで作ったものを公開しています
 
 # Links
-This page has some links to sns, such as Twitter, facebok, instagram, so on.
-And there are some links to developper page, such as github.
+「自己紹介ページ」には, Qiita やgithub 等の質問・開発関連のサイトのリンク, 
+それからinstagram, twitter 等のSNS のリンクも貼ってます.
 
-# Qwerty
-# Qwerty
+# 方針
+今のところ, 研究室の方で研究課題を決めてそこに関しての学習を数sめているところなので, 
+それに関するコードを書いていくつもりです. python3 で機械学習関連, 
+シェルスクリプトやc言語でRaspberry Pi model 3 の制御, web 開発でhtml, css, javascript, 
+バックエンドでphp, などアップしていければいいなと考えています. 
+
+# 目標
+毎日とは言わないが, 頻繁に更新していきたい. 一気に成長することはできないので, 少しずつ書いていきたいと思っています.
